@@ -99,6 +99,7 @@
 
       /* below we use a simple solution for descendents of parent selector to narrow down the selection to the situation where .text and .hidden with anly work if the .open class is applied to the parent element. We can toggle the class using JS  */
 
+      .open .number,
       .open .text {
         color: #087f5b;
       }
@@ -110,7 +111,7 @@
   </head>
   <body>
     <div class="accordion">
-      <div class="item open">
+      <div class="item">
         <p class="number">01</p>
         <p class="text">Where are these chairs assembled?</p>
         <svg
@@ -153,7 +154,7 @@
           </ul>
         </div>
       </div>
-      <div class="item open">
+      <div class="item"item">
         <p class="number">02</p>
         <p class="text">How long do I have to return my chair?</p>
         <svg
@@ -196,7 +197,7 @@
           </ul>
         </div>
       </div>
-      <div class="item open">
+      <div class="item"item">
         <p class="number">03</p>
         <p class="text">Do you ship to countries outside of the EU?</p>
         <svg
