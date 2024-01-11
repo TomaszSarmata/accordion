@@ -45,14 +45,13 @@
       }
       .hidden-box {
         grid-column: 2;
+        display: none;
       }
       .item {
-        border-top: 4px solid #087f5b;
         padding: 24px;
         box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
         display: grid;
         grid-template-columns: auto 1fr auto;
-        grid-template-rows: repeat(3, auto);
         column-gap: 24px;
         row-gap: 32px;
         align-items: center;
@@ -61,10 +60,11 @@
       .text {
         font-size: 24px;
         font-weight: 500;
-        color: #087f5b;
+        /* color: #087f5b; */
       }
       .number {
         grid-column: 1/2;
+        color: #ced4da;
       }
       .text {
         grid-column: 2/3;
@@ -89,6 +89,16 @@
         flex-direction: column;
         gap: 12px;
       }
+
+      /* .hidden {
+        display: none;
+      } */
+      .open {
+        display: block;
+      }
+      .open-border {
+        border-top: 4px solid #087f5b;
+      }
     </style>
   </head>
   <body>
@@ -110,7 +120,7 @@
             d="m19.5 8.25-7.5 7.5-7.5-7.5"
           />
         </svg>
-        <div class="hidden-box">
+        <div class="hidden-box hidden">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos
             ad reprehenderit. Explicabo numquam mollitia nulla natus nesciunt.
@@ -153,7 +163,7 @@
             d="m19.5 8.25-7.5 7.5-7.5-7.5"
           />
         </svg>
-        <div class="hidden-box">
+        <div class="hidden-box hidden">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos
             ad reprehenderit. Explicabo numquam mollitia nulla natus nesciunt.
@@ -196,7 +206,7 @@
             d="m19.5 8.25-7.5 7.5-7.5-7.5"
           />
         </svg>
-        <div class="hidden-box">
+        <div class="hidden-box hidden">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eos
             ad reprehenderit. Explicabo numquam mollitia nulla natus nesciunt.
