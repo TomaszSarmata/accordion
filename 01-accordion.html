@@ -41,22 +41,23 @@
         margin: 100px auto;
       }
       .hidden-box {
-        grid-column: 2/3;
+        grid-column: 2;
       }
       .item {
         border-top: 4px solid #087f5b;
         padding: 24px;
         box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
         display: grid;
-        grid-template-columns: 1fr 8fr 1fr;
+        grid-template-columns: auto 1fr auto;
         grid-template-rows: repeat(3, auto);
+        column-gap: 24px;
+        row-gap: 32px;
       }
       .number,
       .text {
         font-size: 24px;
         font-weight: 500;
         color: #087f5b;
-        margin-bottom: 30px;
       }
       .number {
         grid-column: 1/2;
