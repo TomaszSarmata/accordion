@@ -41,22 +41,35 @@
         margin: 100px auto;
       }
       .hidden-box {
+        grid-column: 2/3;
       }
       .item {
+        border-top: 4px solid #087f5b;
+        padding: 24px;
+        box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        grid-template-rows: repeat(3, auto);
       }
       .number,
       .text {
         font-size: 24px;
         font-weight: 500;
         color: #087f5b;
-        display: inline-block;
+        margin-bottom: 30px;
+      }
+      .number {
+        grid-column: 1/2;
+      }
+      .text {
+        grid-column: 2/3;
       }
 
       .icon {
         height: 24px;
         width: 24px;
         stroke: #087f5b;
-        display: inline-block;
+        grid-column: 3/4;
       }
 
       .hidden-box p {
