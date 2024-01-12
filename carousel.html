@@ -122,66 +122,261 @@
       .dot-selected {
         background-color: #087f5b;
       }
+
+      .carousel-wrapper {
+        display: none;
+      }
+
+      .carousel-wrapper.carousel-selected {
+        display: block;
+      }
     </style>
   </head>
   <body>
-    <div class="carousel">
-      <img src="./maria.jpg" alt="Maria de Almeida" />
-      <blockquote class="testimonial">
-        <p class="testimonial-text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          nulla magnam qui dolores perferendis. Aut unde neque, cupiditate autem
-          delectus debitis reiciendis quam ipsum eum, mollitia ea iste incidunt
-          "
-        </p>
-        <p class="testimonial-author">Maria de Almeida</p>
-        <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
-      </blockquote>
-      <button class="btn btn-left">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="btn-icon"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M15.75 19.5 8.25 12l7.5-7.5"
-          />
-        </svg>
-      </button>
-      <button class="btn btn-right">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="btn-icon"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="m8.25 4.5 7.5 7.5-7.5 7.5"
-          />
-        </svg>
-      </button>
-      <div class="navigation-dots">
-        <button class="dot dot-selected">&nbsp;</button>
-        <button class="dot">&nbsp;</button>
-        <button class="dot">&nbsp;</button>
-        <button class="dot">&nbsp;</button>
+    <div class="carousel-wrapper carousel-selected">
+      <div class="carousel">
+        <img src="./maria.jpg" alt="Maria de Almeida" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus nulla magnam qui dolores perferendis. Aut unde neque,
+            cupiditate autem "
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+        <button class="btn btn-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </button>
+        <button class="btn btn-right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </button>
+        <div class="navigation-dots">
+          <button class="dot dot-selected">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+        </div>
       </div>
     </div>
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <img src="./hero-square.png" alt="Maria de Almeida" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus nulla magnam qui dolores perferendis. Aut unde neque,
+            cupiditate autem delectus debitis reiciendis quam ipsum eum,
+            mollitia ea iste incidunt "
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+        <button class="btn btn-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </button>
+        <button class="btn btn-right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </button>
+        <div class="navigation-dots">
+          <button class="dot">&nbsp;</button>
+          <button class="dot dot-selected">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <img src="./maria.jpg" alt="Maria de Almeida" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus nulla magnam qui dolores perferendis. Aut unde neque,
+            cupiditate autem delectus debitis reiciendis quam ipsum eum,
+            mollitia ea "
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+        <button class="btn btn-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </button>
+        <button class="btn btn-right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </button>
+        <div class="navigation-dots">
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot dot-selected">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <img src="./hero-square.png" alt="Maria de Almeida" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus nulla magnam qui dolores perferendis. Aut unde neque,
+            cupiditate "
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+        <button class="btn btn-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </button>
+        <button class="btn btn-right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </button>
+        <div class="navigation-dots">
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot dot-selected">&nbsp;</button>
+        </div>
+      </div>
+    </div>
+
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/">Home</a></li>
       </ul>
     </nav>
-    <script></script>
+    <script>
+      const carousels = document.querySelectorAll(".carousel-wrapper");
+
+      document.querySelectorAll(".btn-right").forEach((button) => {
+        button.addEventListener("click", function () {
+          for (let i = 0; i < carousels.length; i++) {
+            if (carousels[i].classList.contains("carousel-selected")) {
+              carousels[i].classList.remove("carousel-selected");
+              let nextIndex = i + 1 < carousels.length ? i + 1 : 0;
+              carousels[nextIndex].classList.add("carousel-selected");
+              break;
+            }
+          }
+        });
+      });
+
+      document.querySelectorAll(".btn-left").forEach((button) => {
+        button.addEventListener("click", function () {
+          for (let i = 3; i < carousels.length; i--) {
+            if (carousels[i].classList.contains("carousel-selected")) {
+              carousels[i].classList.remove("carousel-selected");
+              let previousIndex = i - 1 >= 0 ? i - 1 : 3;
+              carousels[previousIndex].classList.add("carousel-selected");
+              break;
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
