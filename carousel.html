@@ -108,8 +108,8 @@
         gap: 10px;
         position: absolute;
         left: 50%;
-        transform: translate(-50%, 0);
-        bottom: -30px;
+        transform: translate(-50%, 32px);
+        bottom: 0px;
       }
       .dot {
         width: 11px;
@@ -118,8 +118,9 @@
         border: 2px solid #087f5b;
         border-radius: 50%;
         gap: 10px;
+        cursor: pointer;
       }
-      .dot.selected {
+      .dot-selected {
         background-color: #087f5b;
       }
     </style>
@@ -170,7 +171,7 @@
         </svg>
       </button>
       <div class="navigation-dots">
-        <button class="dot selected">&nbsp;</button>
+        <button class="dot dot-selected">&nbsp;</button>
         <button class="dot">&nbsp;</button>
         <button class="dot">&nbsp;</button>
         <button class="dot">&nbsp;</button>
