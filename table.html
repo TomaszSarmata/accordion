@@ -34,9 +34,81 @@
         color: #343a40;
         line-height: 1;
       }
+
+      table {
+        margin: 100px auto;
+      }
+      thead {
+        background-color: #087f5b;
+        color: #fff;
+      }
+
+      th {
+        background-color: #087f5b;
+        padding: 15px;
+        width: 200px;
+      }
+      td {
+        padding: 15px;
+        width: 200px;
+      }
+      tr {
+        background-color: #dee2e6;
+      }
+      tr:nth-child(odd) {
+        background: #f1f3f5;
+      }
+      table,
+      thead,
+      th,
+      td,
+      tr {
+        border: none;
+        border-collapse: collapse;
+        text-align: left;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
+    <table>
+      <thead>
+        <th class="bold">Chair</th>
+        <th>The Laid Back</th>
+        <th>The Worker Bee</th>
+        <th>The Chair 42</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="bold">Width</td>
+          <td>80 cm</td>
+          <td>60 cm</td>
+          <td>220 cm</td>
+        </tr>
+        <tr>
+          <td class="bold">Height</td>
+          <td>100 cm</td>
+          <td>110 cm</td>
+          <td>90 cm</td>
+        </tr>
+        <tr>
+          <td class="bold">Depth</td>
+          <td>70 cm</td>
+          <td>65 cm</td>
+          <td>80 cm</td>
+        </tr>
+        <tr>
+          <td class="bold">Weight</td>
+          <td>16 kg</td>
+          <td>22 kg</td>
+          <td>80 kg</td>
+        </tr>
+      </tbody>
+    </table>
+
     <nav>
       <ul>
         <li>
