@@ -33,39 +33,41 @@
         font-family: "Inter", sans-serif;
         color: #343a40;
         line-height: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
       }
 
       table {
-        margin: 100px auto;
+        width: 800px;
+        margin-top: 100px;
+        border: none;
+        border-collapse: collapse;
+        text-align: left;
+        font-size: 18px;
       }
 
       thead th {
         background-color: #087f5b;
         color: #e6fcf5;
+        width: 25%;
       }
 
-      th {
-        padding: 15px;
-        width: 200px;
-      }
-      td {
-        padding: 15px;
-        width: 200px;
-      }
-      tr {
-        background-color: #dee2e6;
-      }
-      tr:nth-child(odd) {
-        background: #f1f3f5;
-      }
-      table,
-      thead,
       th,
-      td,
-      tr {
-        border: none;
-        border-collapse: collapse;
-        text-align: left;
+      td {
+        padding: 16px 24px;
+      }
+
+      tbody tr:nth-child(odd) {
+        background: #f8f9fa;
+      }
+      tbody tr:nth-child(even) {
+        background: #e9ecef;
+      }
+
+      ul {
+        list-style-type: none;
       }
     </style>
   </head>
